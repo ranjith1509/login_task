@@ -53,7 +53,7 @@ pay.open();
        
          onChange={e=>setAmount(e.target.value)}/> <br/>
          <button className='submits'>place Order</button>
-         <button>het</button>
+    
        
         </form>
 
