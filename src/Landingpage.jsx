@@ -50,10 +50,13 @@ pay.open();
       <label for="amount">Enter The Amount: </label>
          <input type="numbers"
          value={amount}
-        
+       
          onChange={e=>setAmount(e.target.value)}/> <br/>
          <button className='submits'>place Order</button>
+         <button>het</button>
+       
         </form>
+
     <p>Your refernceNumber: {refernceNumber}</p>
     </div>
   )
